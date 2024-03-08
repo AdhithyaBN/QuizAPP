@@ -1,0 +1,44 @@
+﻿  Display.cpp
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Display.cpp')
+  
+  QuizAppFinal.cpp
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'QuizAppFinal.cpp')
+  
+  QuizTakenDAO.cpp
+  Utilities.cpp
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Utilities.cpp')
+  
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.cpp(202,8): warning C4101: 'skipped': unreferenced local variable
+     Creating library C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\x64\Release\QuizAppFinal.lib and object C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\x64\Release\QuizAppFinal.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\Utilities.cpp(131): warning C4715: 'Utilities::getUserQuizzes': not all control paths return a value
+  All 752 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+mysqlcppconn-static.lib(mysql_driver.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_driver.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_connection.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_connection.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_uri.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_uri.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_warning.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_warning.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_prepared_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_prepared_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_debug.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_debug.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_client_api.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_client_api.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_util.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_util.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultbind.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultbind.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_parameter_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_parameter_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_rset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_rset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset_metadata.obj)' or at ''; linking object as if no debug info
+  QuizAppFinal.vcxproj -> C:\Users\adbn\OneDrive - Veralto\Internship\cpp\vscommunity\QuizAppFinal\x64\Release\QuizAppFinal.exe

@@ -1,0 +1,638 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\throw_bad_alloc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\gs_report.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OptionDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizTakenDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OptionDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizTakenDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionsTaken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionsTaken.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionTakenDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionTakenDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizTaken.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizTaken.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Question.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBConnect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuestionDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizDAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizAppFinal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuizAppFinal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\UserDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserDAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Question.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Option.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.h",
+              "RelativeDocumentMoniker": "Admin.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.h",
+              "RelativeToolTip": "Admin.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T05:18:39.015Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Quiz.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.h",
+              "RelativeDocumentMoniker": "Quiz.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.h",
+              "RelativeToolTip": "Quiz.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T05:23:39.27Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Quiz.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.cpp",
+              "RelativeDocumentMoniker": "Quiz.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Quiz.cpp",
+              "RelativeToolTip": "Quiz.cpp",
+              "ViewState": "AQIAADgAAAAAAAAAAIAwwCQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:06:15.829Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Display.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.h",
+              "RelativeDocumentMoniker": "Display.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.h",
+              "RelativeToolTip": "Display.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T09:33:16.42Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Utilities.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.h",
+              "RelativeDocumentMoniker": "Utilities.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.h",
+              "RelativeToolTip": "Utilities.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T11:29:48.465Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exe_common.inl",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "ViewState": "AQIAACIAAAAAAAAAAAApwEEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-07T21:55:16.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OptionDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.cpp",
+              "RelativeDocumentMoniker": "OptionDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.cpp",
+              "RelativeToolTip": "OptionDAO.cpp",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAcwHMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:09:17.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Display.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.cpp",
+              "RelativeDocumentMoniker": "Display.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Display.cpp",
+              "RelativeToolTip": "Display.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:25:51.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utilities.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.cpp",
+              "RelativeDocumentMoniker": "Utilities.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Utilities.cpp",
+              "RelativeToolTip": "Utilities.cpp",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T11:27:23.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuizTakenDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.cpp",
+              "RelativeDocumentMoniker": "QuizTakenDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.cpp",
+              "RelativeToolTip": "QuizTakenDAO.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:10:07.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OptionDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.h",
+              "RelativeDocumentMoniker": "OptionDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\OptionDAO.h",
+              "RelativeToolTip": "OptionDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:10:46.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.h",
+              "RelativeDocumentMoniker": "AdminDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.h",
+              "RelativeToolTip": "AdminDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:10:30.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuizTakenDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.h",
+              "RelativeDocumentMoniker": "QuizTakenDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTakenDAO.h",
+              "RelativeToolTip": "QuizTakenDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:11:57.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuestionsTaken.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.cpp",
+              "RelativeDocumentMoniker": "QuestionsTaken.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.cpp",
+              "RelativeToolTip": "QuestionsTaken.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-07T19:51:31.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuestionsTaken.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.h",
+              "RelativeDocumentMoniker": "QuestionsTaken.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionsTaken.h",
+              "RelativeToolTip": "QuestionsTaken.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-07T20:46:20.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuestionTakenDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.cpp",
+              "RelativeDocumentMoniker": "QuestionTakenDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.cpp",
+              "RelativeToolTip": "QuestionTakenDAO.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:09:54.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuestionTakenDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.h",
+              "RelativeDocumentMoniker": "QuestionTakenDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionTakenDAO.h",
+              "RelativeToolTip": "QuestionTakenDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:11:30.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuizDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.cpp",
+              "RelativeDocumentMoniker": "QuizDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.cpp",
+              "RelativeToolTip": "QuizDAO.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAGUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:08:50.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuizTaken.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.cpp",
+              "RelativeDocumentMoniker": "QuizTaken.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.cpp",
+              "RelativeToolTip": "QuizTaken.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-07T20:45:45.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.cpp",
+              "RelativeDocumentMoniker": "User.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.cpp",
+              "RelativeToolTip": "User.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T11:19:20.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuizTaken.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.h",
+              "RelativeDocumentMoniker": "QuizTaken.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizTaken.h",
+              "RelativeToolTip": "QuizTaken.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-07T19:52:36.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Question.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.cpp",
+              "RelativeDocumentMoniker": "Question.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.cpp",
+              "RelativeToolTip": "Question.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:14:27.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.cpp",
+              "RelativeDocumentMoniker": "AdminDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\AdminDAO.cpp",
+              "RelativeToolTip": "AdminDAO.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:08:30.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DBConnect.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.h",
+              "RelativeDocumentMoniker": "DBConnect.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.h",
+              "RelativeToolTip": "DBConnect.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:56:02.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DBConnect.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.cpp",
+              "RelativeDocumentMoniker": "DBConnect.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\DBConnect.cpp",
+              "RelativeToolTip": "DBConnect.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:28:07.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QuestionDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.h",
+              "RelativeDocumentMoniker": "QuestionDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.h",
+              "RelativeToolTip": "QuestionDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:11:08.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QuestionDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.cpp",
+              "RelativeDocumentMoniker": "QuestionDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuestionDAO.cpp",
+              "RelativeToolTip": "QuestionDAO.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAqwEsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:09:05.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuizDAO.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.h",
+              "RelativeDocumentMoniker": "QuizDAO.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizDAO.h",
+              "RelativeToolTip": "QuizDAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T15:11:42.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Admin.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.cpp",
+              "RelativeDocumentMoniker": "Admin.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Admin.cpp",
+              "RelativeToolTip": "Admin.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:02:24.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "QuizAppFinal.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizAppFinal.cpp",
+              "RelativeDocumentMoniker": "QuizAppFinal.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\QuizAppFinal.cpp",
+              "RelativeToolTip": "QuizAppFinal.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T03:52:16.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Option.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.cpp",
+              "RelativeDocumentMoniker": "Option.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.cpp",
+              "RelativeToolTip": "Option.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAACsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T04:23:34.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDAO.cpp",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\UserDAO.cpp",
+              "RelativeDocumentMoniker": "UserDAO.cpp",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\UserDAO.cpp",
+              "RelativeToolTip": "UserDAO.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAuwDoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T15:07:38.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Question.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.h",
+              "RelativeDocumentMoniker": "Question.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Question.h",
+              "RelativeToolTip": "Question.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T05:25:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "throw_bad_alloc.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-07T09:55:36.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.h",
+              "RelativeDocumentMoniker": "User.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\User.h",
+              "RelativeToolTip": "User.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T11:25:31.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Option.h",
+              "DocumentMoniker": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.h",
+              "RelativeDocumentMoniker": "Option.h",
+              "ToolTip": "C:\\Users\\adbn\\OneDrive - Veralto\\Internship\\cpp\\vscommunity\\QuizAppFinal\\Option.h",
+              "RelativeToolTip": "Option.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T05:26:28.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAowLIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-06T17:10:04.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gs_report.c",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\gs_report.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\gs_report.c",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\gs_report.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\gs_report.c",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAnwNsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-06T17:07:16.991Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

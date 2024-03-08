@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DAO">
+      <UniqueIdentifier>{046a4f75-7b3f-4ca0-8a76-b1e028f0f8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DAO">
+      <UniqueIdentifier>{7cc069d2-b296-4906-8828-9a1fa2bcb846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QuizAppFinal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Question.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionTakenDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizTakenDAO.cpp">
+      <Filter>Source Files\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionsTaken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizTaken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Question.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionTakenDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizTakenDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDAO.h">
+      <Filter>Header Files\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionsTaken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizTaken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
