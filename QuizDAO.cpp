@@ -15,7 +15,9 @@ QuizDAO::QuizDAO(sql::Connection* con) {
     this->con = con;
 }
 
-QuizDAO::~QuizDAO() {}
+QuizDAO::~QuizDAO() {
+ //   delete con;
+}
 
 QuizDAO::QuizDAO() {}
 
@@ -28,13 +30,14 @@ bool QuizDAO::addQuiz(Quiz* quiz) {
         pstmt->setInt(4, quiz->getMaxScore());
         pstmt->setBoolean(5, quiz->isActive());
         pstmt->execute();
-        delete pstmt;
+        delete pstmt,quiz;
         return true;
     }
     catch (sql::SQLException& e) {
         std::cerr << "SQL Error: " << e.what() << std::endl;
         return false;
     }
+    delete quiz;
 }
 
 std::pair<bool, Quiz> QuizDAO::getQuiz(int id) {
@@ -77,6 +80,7 @@ bool QuizDAO::updateQuiz(Quiz* quiz) {
         std::cerr << "SQL Error: " << e.what() << std::endl;
         return false;
     }
+    delete quiz;
 }
 
 bool QuizDAO::deleteQuiz(int id) {
@@ -90,6 +94,51 @@ bool QuizDAO::deleteQuiz(int id) {
     catch (sql::SQLException& e) {
         std::cerr << "SQL Error: " << e.what() << std::endl;
         return false;
+    }
+}
+
+int QuizDAO::getMaxQuizID()
+{
+    int quizID=0;
+    try {
+        sql::PreparedStatement* pstmt = con->prepareStatement("SELECT MAX(id) from QUIZ");
+        sql::ResultSet* res = pstmt->executeQuery();
+        if (res->next()) {
+            quizID=res->getInt(1);
+
+        }
+        delete pstmt, res;
+    }
+    catch (sql::SQLException& e) {
+        std::cerr << "SQL Error: " << e.what() << std::endl;
+        return 0;
+    }
+    return quizID;
+}
+
+void QuizDAO::disableQuiz(int quizID)
+{
+    try {
+        sql::PreparedStatement* pstmt = con->prepareStatement("UPDATE QUIZ SET activ= false where id=?");
+        pstmt->setInt(1, quizID);
+        pstmt->execute();
+        delete pstmt;
+    }
+    catch (sql::SQLException& e) {
+        std::cerr << "SQL Error: " << e.what() << std::endl;
+    }
+}
+
+void QuizDAO::enableQuiz(int quizID)
+{
+    try {
+        sql::PreparedStatement* pstmt = con->prepareStatement("UPDATE QUIZ SET activ= true where id=?");
+        pstmt->setInt(1, quizID);
+        pstmt->execute();
+        delete pstmt;
+    }
+    catch (sql::SQLException& e) {
+        std::cerr << "SQL Error: " << e.what() << std::endl;
     }
 }
 
@@ -113,6 +162,34 @@ map<int,string> QuizDAO::getQuizzes()
             delete res;
             delete pstmtQ;
             delete res1;
+        return quizNames;
+    }
+    catch (sql::SQLException& e) {
+        std::cerr << "SQL Error: " << e.what() << std::endl;
+        return quizNames;
+    }
+}
+
+map<int, string> QuizDAO::getDisabledQuizzes()
+{
+    map<int, string> quizNames;
+    try {
+        sql::PreparedStatement* pstmt = con->prepareStatement("SELECT COUNT(*) FROM QUIZ");
+        sql::ResultSet* res1 = pstmt->executeQuery();
+        sql::PreparedStatement* pstmtQ = con->prepareStatement("SELECT activ, id, title FROM QUIZ");
+        sql::ResultSet* res = pstmtQ->executeQuery();
+        res1->next();
+        for (int i = 0; i < res1->getInt(1); i++) {
+            res->next();
+            if (!res->getBoolean("activ")) {
+                quizNames.insert(make_pair(res->getInt("id"), res->getString("title")));
+            }
+        }
+
+        delete pstmt;
+        delete res;
+        delete pstmtQ;
+        delete res1;
         return quizNames;
     }
     catch (sql::SQLException& e) {

@@ -15,6 +15,7 @@ DBConnect::DBConnect()
 
 DBConnect::~DBConnect()
 {
+    delete con;
 }
 sql::Connection* DBConnect::getConnection()
 {

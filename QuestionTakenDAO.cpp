@@ -7,7 +7,9 @@ QuestionTakenDAO::QuestionTakenDAO()
 {
 }
 
-QuestionTakenDAO::~QuestionTakenDAO() {}
+QuestionTakenDAO::~QuestionTakenDAO() {
+//    delete con;
+}
 
 bool QuestionTakenDAO::addQuestionsTaken(QuestionsTaken questionsTaken) {
     try {

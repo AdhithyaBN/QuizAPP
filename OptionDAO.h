@@ -19,7 +19,7 @@ public:
     bool updateOptionText(int quizID, int questionID, int optionID, string text);
     bool deleteOption(int quizID, int questionID, int optionID);
     Option getOption(int quizID, int questionID, int optionID);
-    map<int, Option> getAllOptions(int quizID, int questionID);
+    map<string, Option> getAllOptions(int quizID, int questionID);
 
 private:
     sql::Connection* con;

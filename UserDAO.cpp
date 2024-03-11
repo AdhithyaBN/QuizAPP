@@ -19,6 +19,7 @@ UserDAO::UserDAO()
 
 UserDAO::~UserDAO()
 {
+ //   delete con;
 }
 bool UserDAO::isUsernameExists(const string username)
 {

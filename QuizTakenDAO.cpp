@@ -3,7 +3,9 @@
 QuizTakenDAO::QuizTakenDAO(sql::Connection* conn)
     : con(conn) {}
 
-QuizTakenDAO::~QuizTakenDAO() {}
+QuizTakenDAO::~QuizTakenDAO() {
+//    delete con;
+}
 
 QuizTakenDAO::QuizTakenDAO()
 {
@@ -26,17 +28,17 @@ bool QuizTakenDAO::addQuizTaken(QuizTaken quizTaken) {
     }
 }
 
-pair<bool, QuizTaken> QuizTakenDAO::getQuizTaken(int quizID, const std::string username) {
+pair<bool, int> QuizTakenDAO::getQuizTaken(int quizID, const std::string username) {
     QuizTaken quizTaken;
+    int attempt;
     bool found = false;
     try {
-        sql::PreparedStatement* pstmt = con->prepareStatement("SELECT * FROM QUIZTAKEN WHERE quizID=? AND username=?");
-        pstmt->setInt(1, quizID);
+        sql::PreparedStatement*  pstmt = con->prepareStatement("SELECT MAX(attempt) FROM QUIZTAKEN WHERE quizID=? and username=?");
+        pstmt->setInt(1,quizID);
         pstmt->setString(2, username);
         sql::ResultSet* res = pstmt->executeQuery();
-
-        if (res->next()) {
-            quizTaken = QuizTaken(res->getInt("quizID"), res->getInt("score"), res->getString("username"), res->getInt("attempt"));
+        if (res->next()) {  
+            attempt = res->getInt(1);
             found = true;
         }
 
@@ -46,7 +48,7 @@ pair<bool, QuizTaken> QuizTakenDAO::getQuizTaken(int quizID, const std::string u
     catch (sql::SQLException& e) {
         std::cerr << "SQL Error: " << e.what() << std::endl;
     }
-    return std::make_pair(found, quizTaken);
+    return std::make_pair(found, attempt);
 }
 
 map<pair<int, int>, QuizTaken> QuizTakenDAO::getAllQuizzesTaken(const std::string username)

@@ -17,7 +17,9 @@ OptionDAO::OptionDAO(sql::Connection* conn) {
     this->con = conn;
 }
 
-OptionDAO::~OptionDAO() {}
+OptionDAO::~OptionDAO() {
+ //   delete con;
+}
 
 bool OptionDAO::addOption(Option option) {
     try {
@@ -113,9 +115,9 @@ Option OptionDAO::getOption(int quizID, int questionID, int optionID) {
     }
 }
 
-map<int, Option> OptionDAO::getAllOptions(int quizID, int questionID)
+map<string, Option> OptionDAO::getAllOptions(int quizID, int questionID)
 {
-    map<int, Option> optionMap;
+    map<string, Option> optionMap;
 
     try {
         sql::PreparedStatement* pstmt = con->prepareStatement("SELECT * FROM OPTIONS WHERE quizID=? AND questionID=?");
@@ -125,7 +127,7 @@ map<int, Option> OptionDAO::getAllOptions(int quizID, int questionID)
 
         while (res->next()) {
             Option option(res->getInt("quizID"), res->getInt("questionID"), res->getInt("optionID"), res->getString("optionText"), res->getInt("score"));
-            optionMap.insert(make_pair(res->getInt("optionID"), option));
+            optionMap.insert(make_pair(to_string(res->getInt("optionID")), option));
         }
         delete pstmt;
         delete res;

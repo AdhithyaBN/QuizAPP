@@ -15,7 +15,9 @@ QuestionDAO::QuestionDAO()
 
 QuestionDAO::QuestionDAO(sql::Connection* con) : con(con) {}
 
-QuestionDAO::~QuestionDAO() {}
+QuestionDAO::~QuestionDAO() {
+//    delete con;
+}
 
 bool QuestionDAO::addQuestion(Question* question) {
     try {

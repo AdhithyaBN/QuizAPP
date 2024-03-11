@@ -18,7 +18,12 @@ public:
     std::pair<bool, Quiz> getQuiz(int id);
     bool updateQuiz(Quiz* quiz);
     bool deleteQuiz(int id);
+    int getMaxQuizID();
+    void disableQuiz(int quizID);
+    void enableQuiz(int quizID);
     map<int,string> getQuizzes();
+    map<int, string> getDisabledQuizzes();
+
 private:
     sql::Connection* con;
 };

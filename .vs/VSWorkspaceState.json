@@ -2,7 +2,11 @@
   "DevContainersInfoBarHidden": true,
   "ActiveTargetSystem": "Local Machine",
   "ExpandedNodes": [
-    ""
+    "",
+    "\\QuizAppFinal",
+    "\\QuizAppFinal\\x64",
+    "\\QuizAppFinal\\x64\\Release"
   ],
+  "SelectedNode": "\\QuizAppFinal.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -15,7 +15,7 @@ public:
     sql::Connection* con;
 
     bool addQuizTaken(QuizTaken quizTaken);
-    pair<bool,QuizTaken> getQuizTaken(int quizID, const std::string username);
+    pair<bool,int> getQuizTaken(int quizID, const std::string username);
     map<pair<int,int>, QuizTaken> getAllQuizzesTaken( const std::string username);
 
 

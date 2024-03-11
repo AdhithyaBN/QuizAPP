@@ -31,9 +31,12 @@ public:
 	DBConnect dbcon;
 	sql::Connection* con;
 	map<int,string> getQuizzes();
+	map<int, string> getDisabledQuizzes();
 	void takeQuiz(User user,int quizID);
 	map<pair<int, int>, QuizTaken> getUserQuizzes(User user);
-
+	void deleteQuiz(int quizID);
+	void enableQuiz(int quizID);
+	
 private:
 	 
 };

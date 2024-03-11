@@ -19,16 +19,17 @@ Utilities::Utilities()
 
 Utilities::~Utilities()
 {
+	delete con;
 }
 std::pair<bool, User> Utilities::authenticateUser() {
 	string username, password;
 	cout << "Please enter your username: " << endl;
-	getline(cin,username);
+	getline(cin>>ws,username);
 
 	auto userPair = userdao.getUser(username);
 	if (userPair.first) {
 		cout << "Please enter your password: " << endl;
-		getline(cin,password);
+		getline(cin>>ws,password);
 		if (userPair.second.getPassword() == password) {
 			cout << "Authentication successful!\n" << endl;
 			return std::make_pair(true, userPair.second);
@@ -48,12 +49,12 @@ std::pair<bool, Admin> Utilities::authenticateAdmin()
 {
 	string username, password;
 	cout << "Please enter your username: " << endl;
-	getline(cin,username);
+	getline(cin>>ws,username);
 
 	auto adminPair = admindao.getAdmin(username);
 	if (adminPair.first) {
 		cout << "Please enter your password: " << endl;
-		getline(cin,password);
+		getline(cin >> ws,password);
 		if (adminPair.second.getPassword() == password) {
 			cout << "Authentication successful!\n" << endl;
 			return std::make_pair(true, adminPair.second);
@@ -75,6 +76,12 @@ map<int, string> Utilities::getQuizzes()
 	return quizNames;
 }
 
+map<int, string> Utilities::getDisabledQuizzes()
+{
+	map<int, string> quizNames = quizdao.getDisabledQuizzes();
+	return quizNames;
+}
+
 void Utilities::takeQuiz(User user,int quizID)
 {
 	auto quizPair = quizdao.getQuiz(quizID);
@@ -82,11 +89,10 @@ void Utilities::takeQuiz(User user,int quizID)
 	int attempt=1;
 	QuizTaken quizTaken;
 	if (quizTakenPair.first) {
-		quizTaken = quizTakenPair.second;
-		attempt = quizTaken.getAttempt()+1;
+		attempt = quizTakenPair.second+1;
 	}
 	map<int, Question> questionMap;
-	map<int, Option> optionMap;
+	map<string, Option> optionMap;
 	Question question;
 	Option option;
 	if (quizPair.first) {
@@ -97,21 +103,21 @@ void Utilities::takeQuiz(User user,int quizID)
 		int score = 0;
 		for (int questionID = 0; questionID < 3; questionID++) {
 			question = questionMap[questionID];
-			int optionSelected;
+			string optionSelected;
 
 			cout <<questionID + 1 << ". " << question.getQuestion()<< endl;
 			optionMap=optiondao.getAllOptions(quiz.getQuizId(), question.getQuestionID());
 			cout << "Options:" << endl;
 			for (int optionID = 0; optionID < 4; optionID++) {
-				option = optionMap[optionID];
+				option = optionMap[to_string(optionID)];
 				cout <<option.getOptionID()<<") "<< option.getText() << endl;
 			}
 			cout << "Enter Option: ";
-			cin >> optionSelected;
+			getline(cin>>ws,optionSelected);
 			cout << "\n";
 			score += optionMap[optionSelected].getScore();
 
-			questiontakendao.addQuestionsTaken(QuestionsTaken(quiz.getQuizId(), question.getQuestionID(), optionSelected, user.getUsername(),attempt));
+			questiontakendao.addQuestionsTaken(QuestionsTaken(quiz.getQuizId(), question.getQuestionID(), optionMap[optionSelected].getOptionID(), user.getUsername(), attempt));
 		}
 		cout << "Quiz completed with score: " << score << endl;
 		quiztakendao.addQuizTaken(QuizTaken(quiz.getQuizId(), score, user.getUsername(),attempt));
@@ -123,11 +129,24 @@ map<pair<int, int>, QuizTaken> Utilities::getUserQuizzes(User user)
 {
 	map<pair<int, int>, QuizTaken> set= quiztakendao.getAllQuizzesTaken(user.getUsername());
 	map<pair<int, int>, QuizTaken>::iterator it = set.begin();
-	cout << "QuizID Attempt Score" << endl;
+	cout << "QuizID		Title	Attempt		Score" << endl;
 	while (it != set.end()) {
-		cout << it->first.first << "	 "<<it->first.second<<"		" << it->second.getScore() << endl;
+		auto quizPair=quizdao.getQuiz(it->first.first);
+		string quizName = quizPair.second.getTitle();
+		cout << it->first.first<<"		"<<quizName << "	" << "	 " << it->first.second << "		" << it->second.getScore() << endl;
 		it++;
 	}
+	return set;
+}
+
+void Utilities::deleteQuiz(int quizID)
+{
+	quizdao.disableQuiz(quizID);
+}
+
+void Utilities::enableQuiz(int quizID)
+{
+	quizdao.enableQuiz(quizID);
 }
 
 
@@ -135,19 +154,19 @@ void Utilities::registerNewUser()
 {
 	string username, password;
 	cout << "Set username:" << endl;
-	getline(cin,username);
+	getline(cin >> ws,username);
 	while (userdao.isUsernameExists(username)) {
 		cout << "Username exists, enter new username" << endl;
-		getline(cin, username);
+		getline(cin >> ws, username);
 	}
 	cout << "Set password" << endl;
-	getline(cin,password);
+	getline(cin >> ws,password);
 	string name, phno;
 	int age;
 	cout << "Enter name:" << endl;
-	getline(cin,name);
+	getline(cin >> ws,name);
 	cout << "Enter phno:" << endl;
-	getline(cin,phno);
+	getline(cin >> ws,phno);
 	cout << "Enter age:" << endl;
 	cin >> age;
 	cout << "User registered, login now!\n" << endl;
@@ -159,19 +178,19 @@ void Utilities::registerNewAdmin()
 {
 	string username, password;
 	cout << "Set username:" << endl;
-	getline(cin, username);
+	getline(cin >> ws, username);
 	while (admindao.isUsernameExists(username)) {
 		cout << "Username exists, enter new username" << endl;
-		getline(cin, username);
+		getline(cin >> ws, username);
 	}
 	cout << "Set password:" << endl;
-	getline(cin, password);
+	getline(cin >> ws, password);
 	string name, phno;
 	int age;
 	cout << "Enter name:" << endl;
-	getline(cin, name);
+	getline(cin >> ws, name);
 	cout << "Enter phno:" << endl;
-	getline(cin, phno);
+	getline(cin >> ws, phno);
 	cout << "Enter age:" << endl;
 	cin >> age;
 	cout << "Admin registered, Login Now\n" << endl;
@@ -188,25 +207,23 @@ void Utilities::addQuiz()
 	Question questions[3];
 	int max_score=0;
 	bool active = true;
-	cout << "Enter unique integer quiz ID:" << endl;
-	cin >> quizID;
-	//utilities.checkQuizUnique(quizID);
+	quizID=quizdao.getMaxQuizID()+ 1;
 	cout << "Enter type of quiz:" << endl;
-	getline(cin,type);
+	getline(cin>>ws,type);
 	cout << "Enter quiz description" << endl;
-	getline(cin,desc);
+	getline(cin>>ws,desc);
 	for (int i = 0; i < 3; i++) {
 		int questionID = i;
 		string quest;
 		Option options[4];
 		bool skipped;
 		cout << "Enter Question: " << endl;
-		getline(cin,quest);
+		getline(cin >> ws,quest);
 		for (int j = 0; j < 4; j++) {
 			string text;
 			int score;
 			cout << "Enter Option:" << endl;
-			getline(cin,text);
+			getline(cin >> ws,text);
 			cout << "Enter integer score:" << endl;
 			cin >> score;
 			if (score > 0) {

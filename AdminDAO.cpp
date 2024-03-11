@@ -16,7 +16,9 @@ AdminDAO::AdminDAO(sql::Connection* con) {
 
 AdminDAO::AdminDAO() {}
 
-AdminDAO::~AdminDAO() {}
+AdminDAO::~AdminDAO() {
+ //   delete con;
+}
 
 bool AdminDAO::isUsernameExists( string username)
 {
@@ -39,7 +41,7 @@ void AdminDAO::addAdmin( Admin* admin) {
     pstmt->setString(5, admin->getPassword());
 
     pstmt->executeQuery();
-    delete pstmt;
+    delete pstmt,admin;
 }
 
 std::pair<bool, Admin> AdminDAO::getAdmin( string username) {
